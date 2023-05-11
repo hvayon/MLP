@@ -25,7 +25,7 @@ endif()
 set(__QT_DEPLOY_SYSTEM_NAME "Darwin")
 set(__QT_DEPLOY_IS_SHARED_LIBS_BUILD "ON")
 set(__QT_DEPLOY_TOOL "/usr/local/bin/macdeployqt")
-set(__QT_DEPLOY_IMPL_DIR "/Users/natalia/Desktop/MLP-21school/src/build/.qt")
+set(__QT_DEPLOY_IMPL_DIR "/Users/natalia/Desktop/CPP7_MLP-0/src/build/.qt")
 set(__QT_DEPLOY_VERBOSE "")
 set(__QT_CMAKE_EXPORT_NAMESPACE "Qt6")
 set(__QT_DEPLOY_GENERATOR_IS_MULTI_CONFIG "0")
@@ -35,7 +35,7 @@ set(__QT_DEFAULT_MAJOR_VERSION "6")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "/usr/local/Cellar/qt/6.4.3_1/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "/usr/local/Cellar/qt/6.4.3_2/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")

@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "/Users/natalia/Desktop/MLP-21school/src/build/MLP_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/natalia/Desktop/MLP-21school/src/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/natalia/Desktop/MLP-21school/src/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/natalia/Desktop/MLP-21school/src/MLP",
+	"BUILD_DIR" : "/Users/natalia/Desktop/CPP7_MLP-0/src/build/MLP_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/natalia/Desktop/CPP7_MLP-0/src/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/natalia/Desktop/CPP7_MLP-0/src/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/natalia/Desktop/CPP7_MLP-0/src/MLP",
 	"CMAKE_EXECUTABLE" : "/usr/local/Cellar/cmake/3.26.3/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/Users/natalia/Desktop/MLP-21school/src/MLP/CMakeLists.txt",
-		"/Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles/3.26.3/CMakeSystem.cmake",
+		"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/CMakeLists.txt",
+		"/Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles/3.26.3/CMakeSystem.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake",
-		"/Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake",
+		"/Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -35,7 +35,7 @@
 		"/usr/local/lib/cmake/Qt6/Qt6Targets.cmake",
 		"/usr/local/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
 		"/usr/local/lib/cmake/Qt6/QtFeature.cmake",
-		"/usr/local/Cellar/qt/6.4.3_1/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"/usr/local/Cellar/qt/6.4.3_2/lib/cmake/Qt6/QtFeatureCommon.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake",
@@ -69,7 +69,7 @@
 		"/usr/local/lib/cmake/Qt6/Qt6Targets.cmake",
 		"/usr/local/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
 		"/usr/local/lib/cmake/Qt6/QtFeature.cmake",
-		"/usr/local/Cellar/qt/6.4.3_1/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"/usr/local/Cellar/qt/6.4.3_2/lib/cmake/Qt6/QtFeatureCommon.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake",
 		"/usr/local/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
 		"/usr/local/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
@@ -120,7 +120,7 @@
 		"/usr/local/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
 		"/usr/local/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
-		"/usr/local/Cellar/qt/6.4.3_1/lib/cmake/Qt6/FindWrapAtomic.cmake",
+		"/usr/local/Cellar/qt/6.4.3_2/lib/cmake/Qt6/FindWrapAtomic.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/FindPackageMessage.cmake",
@@ -144,13 +144,13 @@
 		"/usr/local/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
 		"/usr/local/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
-		"/usr/local/Cellar/qt/6.4.3_1/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+		"/usr/local/Cellar/qt/6.4.3_2/lib/cmake/Qt6/FindWrapOpenGL.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/FindOpenGL.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/FindPackageMessage.cmake",
-		"/usr/local/Cellar/qt/6.4.3_1/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake",
+		"/usr/local/Cellar/qt/6.4.3_2/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/FindVulkan.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/FindPackageMessage.cmake",
@@ -317,81 +317,81 @@
 		"/usr/local/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake",
 		"/usr/local/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/Users/natalia/Desktop/MLP-21school/src/MLP",
+	"CMAKE_SOURCE_DIR" : "/Users/natalia/Desktop/CPP7_MLP-0/src/MLP",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/controller/controller.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/controller/controller.h",
 			"MU",
 			"NPUKSKGWT2/moc_controller.cpp",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/model/ImageEmnist.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/neuralnetwork/ImageEmnist.h",
 			"MU",
-			"NLOY5YBGEN/moc_ImageEmnist.cpp",
+			"XVIXVBQBQX/moc_ImageEmnist.cpp",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/model/MlpGraphModel.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/neuralnetwork/MlpGraphModel.h",
 			"MU",
-			"NLOY5YBGEN/moc_MlpGraphModel.cpp",
+			"XVIXVBQBQX/moc_MlpGraphModel.cpp",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/model/MlpMatrixModel.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/neuralnetwork/MlpMatrixModel.h",
 			"MU",
-			"NLOY5YBGEN/moc_MlpMatrixModel.cpp",
+			"XVIXVBQBQX/moc_MlpMatrixModel.cpp",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/model/metrics.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/neuralnetwork/metrics.h",
 			"MU",
-			"NLOY5YBGEN/moc_metrics.cpp",
+			"XVIXVBQBQX/moc_metrics.cpp",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/model/simple_matrix.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/neuralnetwork/simple_matrix.h",
 			"MU",
-			"NLOY5YBGEN/moc_simple_matrix.cpp",
+			"XVIXVBQBQX/moc_simple_matrix.cpp",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/experimentInfo.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/experimentinfo.h",
 			"MU",
-			"OTUN7GXZT4/moc_experimentInfo.cpp",
+			"OTUN7GXZT4/moc_experimentinfo.cpp",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/mainwindow.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/mainwindow.h",
 			"MU",
 			"OTUN7GXZT4/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/paint.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/paint.h",
 			"MU",
 			"OTUN7GXZT4/moc_paint.cpp",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/statuswindow.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/statuswindow.h",
 			"MU",
 			"OTUN7GXZT4/moc_statuswindow.cpp",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/trainworker.h",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/trainworker.h",
 			"MU",
 			"OTUN7GXZT4/moc_trainworker.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/natalia/Desktop/MLP-21school/src/build/MLP_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/natalia/Desktop/MLP-21school/src/build/MLP_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/natalia/Desktop/CPP7_MLP-0/src/build/MLP_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/natalia/Desktop/CPP7_MLP-0/src/build/MLP_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CONCURRENT_LIB",
@@ -409,12 +409,12 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/natalia/Desktop/MLP-21school/src/build",
-		"/Users/natalia/Desktop/MLP-21school/src/MLP",
-		"/Users/natalia/Desktop/MLP-21school/src/MLP/controller",
-		"/Users/natalia/Desktop/MLP-21school/src/MLP/model",
-		"/Users/natalia/Desktop/MLP-21school/src/MLP/view",
-		"/Users/natalia/Desktop/MLP-21school/src/MLP/forms",
+		"/Users/natalia/Desktop/CPP7_MLP-0/src/build",
+		"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP",
+		"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/controller",
+		"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/model",
+		"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view",
+		"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/forms",
 		"/usr/local/lib/QtCore.framework/Headers",
 		"/usr/local/lib/QtCore.framework",
 		"/usr/local/share/qt/mkspecs/macx-clang",
@@ -425,10 +425,10 @@
 		"/usr/local/lib/QtGui.framework",
 		"/usr/local/lib/QtConcurrent.framework/Headers",
 		"/usr/local/lib/QtConcurrent.framework",
-		"/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1",
-		"/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include",
-		"/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include",
-		"/Library/Developer/CommandLineTools/usr/include"
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -442,83 +442,79 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
 		"-dM",
 		"-E",
 		"-c",
 		"/usr/local/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/natalia/Desktop/MLP-21school/src/build/MLP_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/natalia/Desktop/CPP7_MLP-0/src/build/MLP_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles/MLP_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles/MLP_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/local/share/qt/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/local/share/qt/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 4,
-	"SETTINGS_FILE" : "/Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles/MLP_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles/MLP_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/controller/controller.cpp",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/controller/controller.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/model/ImageEmnist.cpp",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/neuralnetwork/ImageEmnist.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/model/MlpGraphModel.cpp",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/neuralnetwork/MlpGraphModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/model/MlpMatrixModel.cpp",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/neuralnetwork/MlpMatrixModel.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/model/metrics.cpp",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/neuralnetwork/metrics.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/experimentInfo.cpp",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/experimentInfo.cpp",
+			"MU",
+			null
+		],
+		[ "/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/main.cpp", "MU", null ],
+		[
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/mainwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/main.cpp",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/paint.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/mainwindow.cpp",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/statuswindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/paint.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/statuswindow.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/natalia/Desktop/MLP-21school/src/MLP/view/trainworker.cpp",
+			"/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/view/trainworker.cpp",
 			"MU",
 			null
 		]
 	],
 	"UIC_OPTIONS" : [],
-	"UIC_SEARCH_PATHS" : [ "/Users/natalia/Desktop/MLP-21school/src/MLP/forms" ],
+	"UIC_SEARCH_PATHS" : [ "/Users/natalia/Desktop/CPP7_MLP-0/src/MLP/forms" ],
 	"UIC_SKIP" : [],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0

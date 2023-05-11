@@ -1,6 +1,6 @@
 #include "paint.h"
 
-#include "model/MlpMatrixModel.h"
+#include "neuralnetwork/MlpMatrixModel.h"
 #include "ui_mainwindow.h"
 Paint::Paint(QWidget *parent)
     : QWidget{parent}, is_locked_(false), is_write_(true) {
@@ -9,12 +9,14 @@ Paint::Paint(QWidget *parent)
 }
 
 void Paint::paintEvent(QPaintEvent *event) {  // override
+  event = nullptr;
   QPainter painter(this);
   painter.drawPixmap(0, 0, pixmap_);
   this->update();
 }
 
 void Paint::resizeEvent(QResizeEvent *event) {  // override
+  event = nullptr;
   auto newRect = pixmap_.rect().united(rect());
   if (!(newRect == pixmap_.rect())) {
     QPixmap newPixmap{newRect.size()};
@@ -42,6 +44,8 @@ void Paint::mouseMoveEvent(QMouseEvent *event) {
 }
 
 void Paint::draw(const QPoint &pos, Qt::MouseButton event) {  // override
+  auto *toDel = &event;
+  toDel = nullptr;
   if (is_locked_ == false && is_write_) {
     QPainter painter{&pixmap_};
     painter.setPen(*pen_);

@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.26.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/natalia/Desktop/MLP-21school/src/MLP
+CMAKE_SOURCE_DIR = /Users/natalia/Desktop/CPP7_MLP-0/src/MLP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/natalia/Desktop/MLP-21school/src/build
+CMAKE_BINARY_DIR = /Users/natalia/Desktop/CPP7_MLP-0/src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles /Users/natalia/Desktop/MLP-21school/src/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles /Users/natalia/Desktop/CPP7_MLP-0/src/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -190,101 +190,101 @@ controller/controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/controller/controller.cpp.s
 .PHONY : controller/controller.cpp.s
 
-model/ImageEmnist.o: model/ImageEmnist.cpp.o
-.PHONY : model/ImageEmnist.o
+neuralnetwork/ImageEmnist.o: neuralnetwork/ImageEmnist.cpp.o
+.PHONY : neuralnetwork/ImageEmnist.o
 
 # target to build an object file
-model/ImageEmnist.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/ImageEmnist.cpp.o
-.PHONY : model/ImageEmnist.cpp.o
+neuralnetwork/ImageEmnist.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/ImageEmnist.cpp.o
+.PHONY : neuralnetwork/ImageEmnist.cpp.o
 
-model/ImageEmnist.i: model/ImageEmnist.cpp.i
-.PHONY : model/ImageEmnist.i
+neuralnetwork/ImageEmnist.i: neuralnetwork/ImageEmnist.cpp.i
+.PHONY : neuralnetwork/ImageEmnist.i
 
 # target to preprocess a source file
-model/ImageEmnist.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/ImageEmnist.cpp.i
-.PHONY : model/ImageEmnist.cpp.i
+neuralnetwork/ImageEmnist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/ImageEmnist.cpp.i
+.PHONY : neuralnetwork/ImageEmnist.cpp.i
 
-model/ImageEmnist.s: model/ImageEmnist.cpp.s
-.PHONY : model/ImageEmnist.s
+neuralnetwork/ImageEmnist.s: neuralnetwork/ImageEmnist.cpp.s
+.PHONY : neuralnetwork/ImageEmnist.s
 
 # target to generate assembly for a file
-model/ImageEmnist.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/ImageEmnist.cpp.s
-.PHONY : model/ImageEmnist.cpp.s
+neuralnetwork/ImageEmnist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/ImageEmnist.cpp.s
+.PHONY : neuralnetwork/ImageEmnist.cpp.s
 
-model/MlpGraphModel.o: model/MlpGraphModel.cpp.o
-.PHONY : model/MlpGraphModel.o
+neuralnetwork/MlpGraphModel.o: neuralnetwork/MlpGraphModel.cpp.o
+.PHONY : neuralnetwork/MlpGraphModel.o
 
 # target to build an object file
-model/MlpGraphModel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/MlpGraphModel.cpp.o
-.PHONY : model/MlpGraphModel.cpp.o
+neuralnetwork/MlpGraphModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/MlpGraphModel.cpp.o
+.PHONY : neuralnetwork/MlpGraphModel.cpp.o
 
-model/MlpGraphModel.i: model/MlpGraphModel.cpp.i
-.PHONY : model/MlpGraphModel.i
+neuralnetwork/MlpGraphModel.i: neuralnetwork/MlpGraphModel.cpp.i
+.PHONY : neuralnetwork/MlpGraphModel.i
 
 # target to preprocess a source file
-model/MlpGraphModel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/MlpGraphModel.cpp.i
-.PHONY : model/MlpGraphModel.cpp.i
+neuralnetwork/MlpGraphModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/MlpGraphModel.cpp.i
+.PHONY : neuralnetwork/MlpGraphModel.cpp.i
 
-model/MlpGraphModel.s: model/MlpGraphModel.cpp.s
-.PHONY : model/MlpGraphModel.s
+neuralnetwork/MlpGraphModel.s: neuralnetwork/MlpGraphModel.cpp.s
+.PHONY : neuralnetwork/MlpGraphModel.s
 
 # target to generate assembly for a file
-model/MlpGraphModel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/MlpGraphModel.cpp.s
-.PHONY : model/MlpGraphModel.cpp.s
+neuralnetwork/MlpGraphModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/MlpGraphModel.cpp.s
+.PHONY : neuralnetwork/MlpGraphModel.cpp.s
 
-model/MlpMatrixModel.o: model/MlpMatrixModel.cpp.o
-.PHONY : model/MlpMatrixModel.o
+neuralnetwork/MlpMatrixModel.o: neuralnetwork/MlpMatrixModel.cpp.o
+.PHONY : neuralnetwork/MlpMatrixModel.o
 
 # target to build an object file
-model/MlpMatrixModel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/MlpMatrixModel.cpp.o
-.PHONY : model/MlpMatrixModel.cpp.o
+neuralnetwork/MlpMatrixModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/MlpMatrixModel.cpp.o
+.PHONY : neuralnetwork/MlpMatrixModel.cpp.o
 
-model/MlpMatrixModel.i: model/MlpMatrixModel.cpp.i
-.PHONY : model/MlpMatrixModel.i
+neuralnetwork/MlpMatrixModel.i: neuralnetwork/MlpMatrixModel.cpp.i
+.PHONY : neuralnetwork/MlpMatrixModel.i
 
 # target to preprocess a source file
-model/MlpMatrixModel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/MlpMatrixModel.cpp.i
-.PHONY : model/MlpMatrixModel.cpp.i
+neuralnetwork/MlpMatrixModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/MlpMatrixModel.cpp.i
+.PHONY : neuralnetwork/MlpMatrixModel.cpp.i
 
-model/MlpMatrixModel.s: model/MlpMatrixModel.cpp.s
-.PHONY : model/MlpMatrixModel.s
+neuralnetwork/MlpMatrixModel.s: neuralnetwork/MlpMatrixModel.cpp.s
+.PHONY : neuralnetwork/MlpMatrixModel.s
 
 # target to generate assembly for a file
-model/MlpMatrixModel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/MlpMatrixModel.cpp.s
-.PHONY : model/MlpMatrixModel.cpp.s
+neuralnetwork/MlpMatrixModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/MlpMatrixModel.cpp.s
+.PHONY : neuralnetwork/MlpMatrixModel.cpp.s
 
-model/metrics.o: model/metrics.cpp.o
-.PHONY : model/metrics.o
+neuralnetwork/metrics.o: neuralnetwork/metrics.cpp.o
+.PHONY : neuralnetwork/metrics.o
 
 # target to build an object file
-model/metrics.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/metrics.cpp.o
-.PHONY : model/metrics.cpp.o
+neuralnetwork/metrics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/metrics.cpp.o
+.PHONY : neuralnetwork/metrics.cpp.o
 
-model/metrics.i: model/metrics.cpp.i
-.PHONY : model/metrics.i
+neuralnetwork/metrics.i: neuralnetwork/metrics.cpp.i
+.PHONY : neuralnetwork/metrics.i
 
 # target to preprocess a source file
-model/metrics.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/metrics.cpp.i
-.PHONY : model/metrics.cpp.i
+neuralnetwork/metrics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/metrics.cpp.i
+.PHONY : neuralnetwork/metrics.cpp.i
 
-model/metrics.s: model/metrics.cpp.s
-.PHONY : model/metrics.s
+neuralnetwork/metrics.s: neuralnetwork/metrics.cpp.s
+.PHONY : neuralnetwork/metrics.s
 
 # target to generate assembly for a file
-model/metrics.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/model/metrics.cpp.s
-.PHONY : model/metrics.cpp.s
+neuralnetwork/metrics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MLP.dir/build.make CMakeFiles/MLP.dir/neuralnetwork/metrics.cpp.s
+.PHONY : neuralnetwork/metrics.cpp.s
 
 view/experimentInfo.o: view/experimentInfo.cpp.o
 .PHONY : view/experimentInfo.o
@@ -446,18 +446,18 @@ help:
 	@echo "... controller/controller.o"
 	@echo "... controller/controller.i"
 	@echo "... controller/controller.s"
-	@echo "... model/ImageEmnist.o"
-	@echo "... model/ImageEmnist.i"
-	@echo "... model/ImageEmnist.s"
-	@echo "... model/MlpGraphModel.o"
-	@echo "... model/MlpGraphModel.i"
-	@echo "... model/MlpGraphModel.s"
-	@echo "... model/MlpMatrixModel.o"
-	@echo "... model/MlpMatrixModel.i"
-	@echo "... model/MlpMatrixModel.s"
-	@echo "... model/metrics.o"
-	@echo "... model/metrics.i"
-	@echo "... model/metrics.s"
+	@echo "... neuralnetwork/ImageEmnist.o"
+	@echo "... neuralnetwork/ImageEmnist.i"
+	@echo "... neuralnetwork/ImageEmnist.s"
+	@echo "... neuralnetwork/MlpGraphModel.o"
+	@echo "... neuralnetwork/MlpGraphModel.i"
+	@echo "... neuralnetwork/MlpGraphModel.s"
+	@echo "... neuralnetwork/MlpMatrixModel.o"
+	@echo "... neuralnetwork/MlpMatrixModel.i"
+	@echo "... neuralnetwork/MlpMatrixModel.s"
+	@echo "... neuralnetwork/metrics.o"
+	@echo "... neuralnetwork/metrics.i"
+	@echo "... neuralnetwork/metrics.s"
 	@echo "... view/experimentInfo.o"
 	@echo "... view/experimentInfo.i"
 	@echo "... view/experimentInfo.s"

@@ -2,8 +2,8 @@
 
 #include "controller/controller.h"
 #include "mainwindow.h"
-#include "model/MlpGraphModel.h"
-#include "model/MlpMatrixModel.h"
+#include "neuralnetwork/MlpGraphModel.h"
+#include "neuralnetwork/MlpMatrixModel.h"
 
 int main(int argc, char *argv[]) {
   QApplication a(argc, argv);

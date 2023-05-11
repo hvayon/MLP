@@ -8,19 +8,19 @@ TrainWorker::TrainWorker(s21::Controller *c, QObject *parent)
 TrainWorker::~TrainWorker() {}
 
 void TrainWorker::run() {
-  emit updateStatus("Training process started...");
+  emit updateStatus("Начался процесс обучения...");
   emit updateStatus(
-      "Initializing model and loading training and testing sources...");
+      "Инициализация модели и загрузка источников обучения и тестирования...");
   controller->initModel(isMatrixModel);
-  if (!needEndNow()) emit updateStatus("Model succesfully initialized.");
+  if (!needEndNow()) emit updateStatus("Модель успешно инициализирована.");
   for (int i = 0; i < epochesAmount; i++) {
     if (!needEndNow()) {
       std::string message;
-      emit updateStatus("Training for epoch #" + std::to_string(i + 1) + "...");
+      emit updateStatus("Обучение эпохе #" + std::to_string(i + 1) + "...");
       message = controller->trainModelForOneEpoch(
           isMatrixModel, evaluateModelAfterEachEpoch, 1, i + 1, miniBatchSize,
           learningConstant);
-      emit updateStatus("Epoch finished.");
+      emit updateStatus("Эпоха закончилась.");
       emit updateStatus(message);
     }
   }

@@ -1,10 +1,12 @@
-SOURCES = controller/* model/* view/*
+SOURCES = controller/* neuralnetwork/* view/*
 
 .PHONY: all dist clean install uninstall dvi build
 
 build:
 	cmake -S . -B ./../build
 	cmake --build ./../build
+
+rebuild: uninstall build install
 
 install: build
 	cp -rf ./../build/MLP.app $(HOME)/Applications/
@@ -25,5 +27,5 @@ dvi:
 	open readme.pdf
 
 tests: clean
-	g++ -std=c++17 model/*.cpp  test/testing.cpp  -o test.out -lgtest
+	g++ -std=c++17 neuralnetwork/*.cpp  test/testing.cpp  -o test.out -lgtest
 	./test.out

@@ -3,27 +3,27 @@
 #include <exception>
 #include <vector>
 
-#include "../model/MlpGraphModel.h"
-#include "../model/MlpMatrixModel.h"
-#include "../model/simple_matrix.h"
+#include "../neuralnetwork/MlpGraphModel.h"
+#include "../neuralnetwork/MlpMatrixModel.h"
+#include "../neuralnetwork/simple_matrix.h"
 
 TEST(MLP_TEST, MatrTest1) {
   s21::MlpMatrixModel matr;
   matr.setNum(5);
-  matr.loadConfig("../resources/configuration.config");
+  matr.loadConfig("resources/configuration.config");
   ASSERT_TRUE(matr.getNumberOfLayers() == 5);
 }
 
 TEST(MLP_TEST, MatrTest2) {
   s21::MlpMatrixModel matr;
-  matr.setTrainingSource("../resource/emnist-letters-train.csv");
+  matr.setTrainingSource("resources/emnist-letters-train.csv");
   matr.initTrainingData();
   matr.shuffleTrainingData();
 }
 
 TEST(MLP_TEST, MatrTest3) {
   s21::MlpMatrixModel matr;
-  matr.setTestingSource("../resource/emnist-letters-test.csv");
+  matr.setTestingSource("resources/emnist-letters-test.csv");
   matr.initTestingData();
   matr.shuffleTestingData();
 }
@@ -31,20 +31,20 @@ TEST(MLP_TEST, MatrTest3) {
 TEST(MLP_TEST, GraphTest1) {
   s21::MlpGraphModel matr;
   matr.setNum(5);
-  matr.loadConfig("../resources/configuration.config");
+  matr.loadConfig("resources/configuration.config");
   ASSERT_TRUE(matr.getNumberOfLayers() == 5);
 }
 
 TEST(MLP_TEST, GraphTest2) {
   s21::MlpGraphModel matr;
-  matr.setTrainingSource("../resource/emnist-letters-train.csv");
+  matr.setTrainingSource("resources/emnist-letters-train.csv");
   matr.initTrainingData();
   matr.shuffleTrainingData();
 }
 
 TEST(MLP_TEST, GraphTest3) {
   s21::MlpGraphModel matr;
-  matr.setTestingSource("../resource/emnist-letters-test.csv");
+  matr.setTestingSource("resources/emnist-letters-test.csv");
   matr.initTestingData();
   matr.shuffleTestingData();
 }

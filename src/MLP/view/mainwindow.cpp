@@ -41,7 +41,7 @@ MainWindow::~MainWindow() {
   delete statusWindow;
 }
 void MainWindow::on_modelLoader_clicked() {
-  QString dir = QFileDialog::getOpenFileName(this, "Choose File");
+  QString dir = QFileDialog::getOpenFileName(this, "Выберите файл");
   if (ui->matrixMode->isChecked()) {
     isMatrixModel = true;
     controller->loadConfig(dir.toStdString(), isMatrixModel);
@@ -160,13 +160,13 @@ void MainWindow::updateModeDisplayedlInfo() {
 }
 
 void MainWindow::on_chooseTrainingDataset_clicked() {
-  QString dir = QFileDialog::getOpenFileName(this, "Choose File");
+  QString dir = QFileDialog::getOpenFileName(this, "Выберите файл");
   ui->trainingDatasetDirectory->setText(dir);
   controller->setTrainingDataSource(dir.toStdString());
 }
 
 void MainWindow::on_chooseTestingDataset_clicked() {
-  QString dir = QFileDialog::getOpenFileName(this, "Choose File");
+  QString dir = QFileDialog::getOpenFileName(this, "Выберите файл");
   ui->testingDatasetDirectory->setText(dir);
   controller->setTestingDataSource(dir.toStdString());
 }
@@ -185,20 +185,20 @@ void MainWindow::on_runExperiment_clicked() {
   auto metrics =
       controller->getMetrics(isMatrixModel, ui->testSampleFraction->value());
   std::ostringstream ss;
-  ss << "Total guessed: " << metrics.getTotalGuessedAmount() << '\\'
+  ss << "Всего угадано: " << metrics.getTotalGuessedAmount() << '\\'
      << metrics.getTotalSampleSize() << '\n';
   ss << "Accuracy: " << metrics.getAverageAccuracy()
      << " , precision: " << metrics.getAveragePrecision()
      << " , recall: " << metrics.getAverageRecall()
      << " , f1-measure: " << metrics.getAverageF1Measure() << '\n';
-  ss << "Total time :" << time(0) - now << '\n';
+  ss << "Общее время: " << time(0) - now << '\n';
   experimentInfo->clearText();
   experimentInfo->appendText(std::string(ss.str()));
   experimentInfo->exec();
 }
 
 void MainWindow::on_load_img_clicked() {
-  QString fileName = QFileDialog::getOpenFileName(this, "Choose file");
+  QString fileName = QFileDialog::getOpenFileName(this, "Выберите файл");
   if (fileName.length() > 0) {
     QImage image;
     image.load(fileName);
@@ -247,13 +247,13 @@ void MainWindow::on_Research_clicked() {
     auto metrics =
         controller->getMetrics(isMatrixModel, ui->testSampleFraction->value());
     std::ostringstream ss;
-    ss << "Total guessed: " << metrics.getTotalGuessedAmount() << '\\'
+    ss << "Всего угадано: " << metrics.getTotalGuessedAmount() << '\\'
        << metrics.getTotalSampleSize() << '\n';
     ss << "Accuracy: " << metrics.getAverageAccuracy()
        << " , precision: " << metrics.getAveragePrecision()
        << " , recall: " << metrics.getAverageRecall()
        << " , f1-measure: " << metrics.getAverageF1Measure() << '\n';
-    ss << "Total time :" << time(0) - now << '\n';
-    std::cout << "General time :" << time(0) - general_t << "\n";
+    ss << "Затраченное время: " << time(0) - now << '\n';
+    std::cout << "Общее время:" << time(0) - general_t << "\n";
   }
 }

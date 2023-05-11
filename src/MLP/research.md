@@ -1,12 +1,10 @@
-Исследование
-
-Проводилось на машине с характеристиками:
-Model Name:	MacBook Air
-Model Identifier:	MacBookAir10,1
-Chip:	Apple M1
-Total Number of Cores:	8 (4 performance and 4 efficiency)
-Memory:	16 GB
-System Firmware Version:	7429.81.3
+Исследование проводилось на машине:
+Model Name:	MacBook Pro
+Model Identifier: A2298
+Chip:	Intel Core i5
+Total Number of Cores: 4
+Memory:	8 GB
+System Firmware Version:	Venture 13.2
 
 
 |                      | 10 запусков | 100 запусков | 1000 запусков | Усредненное время работы 1 запуска |

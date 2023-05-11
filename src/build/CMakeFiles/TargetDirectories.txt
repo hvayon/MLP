@@ -1,4 +1,4 @@
-/Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles/MLP.dir
-/Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles/edit_cache.dir
-/Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles/rebuild_cache.dir
-/Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles/MLP_autogen.dir
+/Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles/MLP.dir
+/Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles/edit_cache.dir
+/Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles/rebuild_cache.dir
+/Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles/MLP_autogen.dir

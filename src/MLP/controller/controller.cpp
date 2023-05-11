@@ -21,11 +21,11 @@ void s21::Controller::initModel(bool isMatrixModel) {
   if (isMatrixModel) {
     matrixModel->initTestingData();
     matrixModel->initTrainingData();
-    matrixModel->initWeightsAndBiases();
+    matrixModel->Init();
   } else {
     graphModel->initTestingData();
     graphModel->initTrainingData();
-    graphModel->initWeightsAndBiases();
+    graphModel->Init();
   }
 }
 void s21::Controller::resetModels() {

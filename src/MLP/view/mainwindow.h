@@ -6,7 +6,7 @@
 #include <condition_variable>
 
 #include "../controller/controller.h"
-#include "../model/MlpMatrixModel.h"
+#include "../neuralnetwork/MlpMatrixModel.h"
 #include "experimentinfo.h"
 #include "paint.h"
 #include "statuswindow.h"

@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.26.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/natalia/Desktop/MLP-21school/src/MLP
+CMAKE_SOURCE_DIR = /Users/natalia/Desktop/CPP7_MLP-0/src/MLP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/natalia/Desktop/MLP-21school/src/build
+CMAKE_BINARY_DIR = /Users/natalia/Desktop/CPP7_MLP-0/src/build
 
 # Utility rule file for MLP_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/MLP_autogen.dir/compiler_depend.make
 include CMakeFiles/MLP_autogen.dir/progress.make
 
 CMakeFiles/MLP_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target MLP"
-	/usr/local/Cellar/cmake/3.26.3/bin/cmake -E cmake_autogen /Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles/MLP_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target MLP"
+	/usr/local/Cellar/cmake/3.26.3/bin/cmake -E cmake_autogen /Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles/MLP_autogen.dir/AutogenInfo.json ""
 
 MLP_autogen: CMakeFiles/MLP_autogen
 MLP_autogen: CMakeFiles/MLP_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/MLP_autogen.dir/clean:
 .PHONY : CMakeFiles/MLP_autogen.dir/clean
 
 CMakeFiles/MLP_autogen.dir/depend:
-	cd /Users/natalia/Desktop/MLP-21school/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/natalia/Desktop/MLP-21school/src/MLP /Users/natalia/Desktop/MLP-21school/src/MLP /Users/natalia/Desktop/MLP-21school/src/build /Users/natalia/Desktop/MLP-21school/src/build /Users/natalia/Desktop/MLP-21school/src/build/CMakeFiles/MLP_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/natalia/Desktop/CPP7_MLP-0/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/natalia/Desktop/CPP7_MLP-0/src/MLP /Users/natalia/Desktop/CPP7_MLP-0/src/MLP /Users/natalia/Desktop/CPP7_MLP-0/src/build /Users/natalia/Desktop/CPP7_MLP-0/src/build /Users/natalia/Desktop/CPP7_MLP-0/src/build/CMakeFiles/MLP_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MLP_autogen.dir/depend
 

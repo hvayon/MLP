@@ -30,25 +30,25 @@ view/statuswindow.cpp
 view/paint.cpp
 view/trainworker.cpp
 view/experimentInfo.cpp
-model/MlpMatrixModel.cpp
-model/MlpGraphModel.cpp
-model/metrics.cpp
+neuralnetwork/MlpMatrixModel.cpp
+neuralnetwork/MlpGraphModel.cpp
+neuralnetwork/metrics.cpp
 controller/controller.cpp
-model/ImageEmnist.cpp
+neuralnetwork/ImageEmnist.cpp
 )
 
 set(HEADERS
 view/mainwindow.h
 view/statuswindow.h
 view/paint.h
-view/experimentInfo.h
+view/experimentinfo.h
 view/trainworker.h
-model/MlpMatrixModel.h
-model/MlpGraphModel.h       
-model/simple_matrix.h
-model/metrics.h       
+neuralnetwork/MlpMatrixModel.h
+neuralnetwork/MlpGraphModel.h       
+neuralnetwork/simple_matrix.h
+neuralnetwork/metrics.h       
 controller/controller.h
-model/ImageEmnist.h
+neuralnetwork/ImageEmnist.h
 )
 
 set(FORMS
@@ -62,6 +62,8 @@ ${SOURCES}
 ${HEADERS}
 ${FORMS}
 )
+
+#add_compile_options(-Wall -Wextra -Werror)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(MLP

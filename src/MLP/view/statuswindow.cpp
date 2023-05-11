@@ -7,9 +7,8 @@ Statuswindow::Statuswindow(QWidget *parent)
     : QDialog(parent), ui(new Ui::Statuswindow) {
   ui->setupUi(this);
   ui->finishButton->setEnabled(false);
-  setWindowFlags(Qt::Window
-	| Qt::WindowMinimizeButtonHint
-	| Qt::WindowMaximizeButtonHint);
+  setWindowFlags(Qt::Window | Qt::WindowMinimizeButtonHint |
+                 Qt::WindowMaximizeButtonHint);
 }
 void Statuswindow::appendText(const std::string &text) {
   ui->trainStatusInfo->appendPlainText(QString::fromStdString(text));

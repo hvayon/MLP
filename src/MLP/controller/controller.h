@@ -1,8 +1,8 @@
 #pragma once
 #include <string>
 
-#include "../model/MlpGraphModel.h"
-#include "../model/MlpMatrixModel.h"
+#include "../neuralnetwork/MlpGraphModel.h"
+#include "../neuralnetwork/MlpMatrixModel.h"
 
 namespace s21 {
 
